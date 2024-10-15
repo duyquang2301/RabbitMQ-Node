@@ -1,0 +1,15 @@
+{
+  "type": "mongodb",
+  "host": "localhost",
+  "port": 27017,
+  "database": "test_main",
+  "username": "root",
+  "password": "password",
+  "authSource": "admin",
+  "synchronize": true,
+  "logging": true,
+  "entities": ["src/entity/*.js"],
+  "cli": {
+    "entitiesDir": "src/entity"
+  }
+}
